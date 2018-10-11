@@ -1,0 +1,106 @@
+{
+    "blocks": [
+        {
+            "messages": [
+                {
+                    "0x420": {
+                        "bus_id": 1,
+                        "name": "Powertrain_Driver_Info_1",
+                        "signals": {
+                            "FUEL_FLOW": {
+                                "bit_position": 16,
+                                "bit_size": 8,
+                                "factor": 2.0833e-05,
+                                "generic_name": "1-fuel_consumed_since_restart",
+                                "max_value": 0.0052916,
+                                "min_value": 0,
+                                "offset": 0,
+                                "value": 0.9999999999
+                            },
+                            "ODO_ROLLING_CNT": {
+                                "bit_position": 8,
+                                "bit_size": 8,
+                                "factor": 0.000125,
+                                "generic_name": "1-odometer",
+                                "max_value": 0.03175,
+                                "min_value": 0,
+                                "offset": 0,
+                                "value": 0.03175
+                            }
+                        }
+                    }
+                },
+                {
+                    "0x435": {
+                        "bus_id": 1,
+                        "name": "Cluster_Information_6",
+                        "signals": {
+                            "TotalDistance": {
+                                "bit_position": 48,
+                                "bit_size": 24,
+                                "factor": 1,
+                                "generic_name": "1-total_odometer",
+                                "max_value": 1000000,
+                                "min_value": 0,
+                                "offset": 0,
+                                "value": 100
+                            }
+                        }
+                    }
+                }
+            ],
+            "write_time": 1505920980000
+        },
+        {
+            "messages": [
+                {
+                    "0x420": {
+                        "bus_id": 1,
+                        "name": "Powertrain_Driver_Info_1",
+                        "signals": {
+                            "FUEL_FLOW": {
+                                "bit_position": 16,
+                                "bit_size": 8,
+                                "factor": 2.0833e-05,
+                                "generic_name": "2-fuel_consumed_since_restart",
+                                "max_value": 0.0052916,
+                                "min_value": 0,
+                                "offset": 0,
+                                "value": 0.0052916
+                            },
+                            "ODO_ROLLING_CNT": {
+                                "bit_position": 8,
+                                "bit_size": 8,
+                                "factor": 0.000125,
+                                "generic_name": "2-odometer",
+                                "max_value": 0.03175,
+                                "min_value": 0,
+                                "offset": 0,
+                                "value": 0.000125
+                            }
+                        }
+                    }
+                },
+                {
+                    "0x435": {
+                        "bus_id": 1,
+                        "name": "Cluster_Information_6",
+                        "signals": {
+                            "TotalDistance": {
+                                "bit_position": 48,
+                                "bit_size": 24,
+                                "factor": 1,
+                                "generic_name": "2-total_odometer",
+                                "max_value": 1000000,
+                                "min_value": 0,
+                                "offset": 0,
+                                "value": 65535
+                            }
+                        }
+                    }
+                }
+            ],
+            "write_time": 1505920990000
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+f=open("trt.txt", "w")
